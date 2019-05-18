@@ -268,8 +268,7 @@
     class BookViewSet(ModelViewSet):
         serializer_class = BookInfoSerializer
         queryset = BookInfo.objects.all()
-  ~~~
-    
-  最后在  项目/项目同名pkg/url.py  和  项目/应用pkg/urls.py  中进行路由注册，完成类视图的编写，可通过浏览器请求（**前提遵守REST规范**），实现全部的数据库增删改查
+  
+    最后在  项目/项目同名pkg/url.py  和  项目/应用pkg/urls.py  中进行路由注册，完成类视图的编写，可通过浏览器请求（**前提遵守REST规范**），实现全部的数据库增删改查
     
     
