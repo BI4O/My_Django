@@ -85,8 +85,9 @@
 
   * ##### 利用REST风格来进行接口设计类视图 
     
+
   在  **项目**/**应用pkg**/view.py  下
-    
+
   1. 查询所有书籍
     
        ~~~python
@@ -179,7 +180,7 @@
        ~~~
     
        在urls.py注册路由，用postman的GET方式访问  127.0.0.1:8000/books/id
-    
+
   * #### 总结
 
     在开发REST API接口时，我们在**视图**中需要做的最核心的事是：
@@ -268,7 +269,8 @@
     class BookViewSet(ModelViewSet):
         serializer_class = BookInfoSerializer
         queryset = BookInfo.objects.all()
-  
-    最后在  项目/项目同名pkg/url.py  和  项目/应用pkg/urls.py  中进行路由注册，完成类视图的编写，可通过浏览器请求（**前提遵守REST规范**），实现全部的数据库增删改查
+    ~~~
     
+    最后在  项目/项目同名pkg/url.py  和  项目/应用pkg/urls.py  中进行路由注册，完成类视图的编写
     
+    通过浏览器请求（**前提遵守REST规范**），即可实现全部的数据库增删改查
