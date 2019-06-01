@@ -38,4 +38,6 @@
     - [Django之RESTful设计风格](https://github.com/BI4O/My_Django/blob/master/Django%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/Django%E4%B9%8BRESTful%E8%AE%BE%E8%AE%A1%E9%A3%8E%E6%A0%BC.md)
   * 搭建DRF工程先从序列化器说起
     - [Django之搭建DRF工程与创建序列化器](https://github.com/BI4O/My_Django/blob/master/Django%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/Django%E4%B9%8B%E6%90%AD%E5%BB%BADRF%E5%B7%A5%E7%A8%8B%E4%B8%8E%E5%88%9B%E5%BB%BA%E5%BA%8F%E5%88%97%E5%8C%96%E5%99%A8.md)
+  * DRF对视图函数的封装
+    - 
 
